@@ -1,0 +1,27 @@
+{
+  "ensemble_type": "improved_hybrid",
+  "members": [
+    "XGBoost",
+    "Random Forest",
+    "Gradient Boosting",
+    "MLP",
+    "LightGBM"
+  ],
+  "weights": {
+    "XGBoost": 0.24153662268542828,
+    "Random Forest": 0.20447139441012047,
+    "Gradient Boosting": 0.4,
+    "MLP": 0.05742871309147189,
+    "LightGBM": 0.09656326981297929
+  },
+  "max_weight_cap": 0.4,
+  "weight_strategy": "optimized",
+  "ensemble_auc": 0.872192513368984,
+  "ensemble_pr_auc": 0.3561423076587174,
+  "base_auc_training_tuned": 0.872192513368984,
+  "thresholds": {
+    "youden": 0.09106079986798003,
+    "f1": 0.33382939787418026,
+    "sens90": 0.02778717645499854
+  }
+}

@@ -1,0 +1,5 @@
+model,brier,ci_lower,ci_upper
+Ensemble (raw),0.0503,0.0407,0.0604
+Ensemble (isotonic),0.0493,0.0395,0.0597
+XGBoost (raw),0.0575,0.0463,0.0693
+XGBoost (isotonic),0.0504,0.0405,0.061

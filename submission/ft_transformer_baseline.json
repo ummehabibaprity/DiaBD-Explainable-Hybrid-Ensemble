@@ -1,0 +1,30 @@
+{
+  "model": "FT-Transformer",
+  "role": "independent baseline (not ensemble member)",
+  "protocol": "fold-safe preprocessing; 5-fold training-only tuning; 15% internal early-stopping split",
+  "best_config": {
+    "d_token": 64,
+    "n_blocks": 2,
+    "n_heads": 4,
+    "dropout": 0.1,
+    "lr": 0.001
+  },
+  "cv_auc": 0.885414935041287,
+  "test_roc_auc": 0.8414587046939989,
+  "test_pr_auc": 0.3231306257777915,
+  "test_sens": 0.6323529411764706,
+  "test_spec": 0.8838383838383839,
+  "test_f1": 0.3805309734513274,
+  "test_mcc": 0.35516728635366196,
+  "threshold": 0.5,
+  "confusion_matrix": [
+    [
+      875,
+      115
+    ],
+    [
+      25,
+      43
+    ]
+  ]
+}

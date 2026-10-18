@@ -1,0 +1,20 @@
+{
+  "experiment": "glucose_exclusion_full_ensemble",
+  "protocol": "held-out sensitivity analysis, 5-fold training-tuned, frozen weights",
+  "glucose_columns_excluded": [
+    "glucose",
+    "bmi_glucose",
+    "glucose_bmi_ratio",
+    "age_glucose"
+  ],
+  "auc_with_glucose": 0.872192513368984,
+  "auc_without_glucose": 0.7801099227569815,
+  "delta_auc": -0.09208259061200241,
+  "members_retrained": [
+    "XGBoost",
+    "Random Forest",
+    "Gradient Boosting",
+    "MLP",
+    "LightGBM"
+  ]
+}
